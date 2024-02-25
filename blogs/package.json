@@ -1,0 +1,39 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "description": "Blogging application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sulavajuusto/fullStackPart4.git"
+  },
+  "author": "Sulavajuusto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sulavajuusto/fullStackPart4/issues"
+  },
+  "homepage": "https://github.com/sulavajuusto/fullStackPart4#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.5",
+    "prettier-eslint": "^16.1.2"
+  }
+}
